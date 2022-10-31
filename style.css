@@ -1,0 +1,31 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%)
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container .qr_wrapper {
+    background-color: hsl(0, 0%, 100%);
+    display: inline-block;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.container .qr_wrapper .qr_image img {
+    width: 100%;
+}
+
+.container .qr_wrapper .qr_content .qr_title h2 {
+    font-weight: 700;
+}
+
+.container .qr_wrapper .qr_content .qr_description p {
+    font-weight: 400;
+}
